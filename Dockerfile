@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.4
 MAINTAINER osawagiboy <osawagiboy@gmail.com>
 
 RUN apk --no-cache add clamav clamav-libunrar \
